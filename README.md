@@ -26,15 +26,11 @@ We compare Agricrafter with 5 baseline methods on realistic crop growth generati
 <table>
   <tr>
     <td align="center">
-      <video src="https://github.com/user-attachments/assets/7805ae96-96b5-4494-b273-99ce5b201220" controls width="80">
-      </video>
-    </td>
-    <td align="center">
       <video src="https://github.com/user-attachments/assets/08226e9f-f2cb-41a6-983b-59669f25d506" controls width="80">
       </video>
     </td>
     <td align="center">
-      <video src="https://github.com/user-attachments/assets/16920227-bf18-4ce0-8d59-55f0f2dc9c41" controls width="80">
+      <video src="https://github.com/user-attachments/assets/af27a947-c93b-4b21-b6db-dd36dff83170" controls width="80">
       </video>
     </td>
     <td align="center">
@@ -42,34 +38,33 @@ We compare Agricrafter with 5 baseline methods on realistic crop growth generati
       </video>
     </td>
     <td align="center">
-      <video width="200" controls>
-        <source src="https://github.com/user-attachments/assets/123ff3ba-86a2-4083-bea3-c2bb9248e886" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/123ff3ba-86a2-4083-bea3-c2bb9248e886" controls width="80">
+      </video>
+    </td>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/7805ae96-96b5-4494-b273-99ce5b201220" controls width="80">
       </video>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <video src="assets/demo_video/0001.mp4" controls width="100">
+      <video src="https://github.com/user-attachments/assets/7128cad4-a188-4f11-99d7-7df508d75ed2" controls width="80">
       </video>
     </td>
     <td align="center">
-      <video width="200" controls>
-        <source src="assets/demo_video/0002.mp4" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/3763ee06-1332-49b9-bfff-5a8799dfde2c" controls width="80">
       </video>
     </td>
     <td align="center">
-      <video width="200" controls>
-        <source src="assets/demo_video/0003.mp4" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/5544987a-f209-42e3-8554-8c46c5063eb2" controls width="80">
       </video>
     </td>
     <td align="center">
-      <video width="200" controls>
-        <source src="assets/demo_video/0003.mp4" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/761ee9f0-39a4-4ddc-b242-1a8a1287fccd" controls width="80">
       </video>
     </td>
     <td align="center">
-      <video width="200" controls>
-        <source src="assets/demo_video/0005.mp4" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/69ed3bb3-ed86-40a4-baea-12d91c509df7" controls width="80">
       </video>
     </td>
   </tr>
@@ -97,37 +92,31 @@ Agricrafter supports **long-range video synthesis** by interpolating intermediat
   </tr>
   <tr>
     <td align="center">
-      <video width="300" controls>
-        <source src="assets/demo_video/0002_sample0.mp4" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/b683000e-9412-4bfe-9d38-707c2ef6a177" controls width="100">
       </video>
     </td>
     <td align="center">
-      <video width="300" controls>
-        <source src="assets/demo_video/0002_sample0_merged.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <video width="300" controls>
-        <source src="assets/demo_video/0004_sample0.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td align="center">
-      <video width="300" controls>
-        <source src="assets/demo_video/0004_sample0_merged.mp4" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/06390bd7-1866-4dd3-ae4f-a007c033ebf7" controls width="100">
       </video>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <video width="300" controls>
-        <source src="assets/demo_video/4002_sample0.mp4" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/dd81f91b-88ca-405c-b333-d2e635a28360" controls width="100">
       </video>
     </td>
     <td align="center">
-      <video width="300" controls>
-        <source src="assets/demo_video/4002_sample0_merged.mp4" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/76d4ea3c-d608-44f1-95de-0217c9d6caf5" controls width="100">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/47ddc2e2-a68f-4f0d-9864-9d8a00bdc3b7" controls width="100">
+      </video>
+    </td>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/1606ef13-e4e8-42d0-83f8-8c21677b82c0" controls width="100">
       </video>
     </td>
   </tr>
