@@ -25,7 +25,7 @@ We build a crop growth video dataset capturing full life cycles.
 
 ## 🆚 2. Comparison with Baseline Methods
 
-We compare Agricrafter with baseline methods on realistic crop growth generation. The first row is the output from baseline methods, and the second row is from our Agricrafter.
+We compare Agricrafter with baseline methods on realistic crop growth generation. The first column is the output from baseline methods, and the second column is from our Agricrafter.
 
 <h4 align="center">🔁 Column 1: Baseline Outputs   |   Column 2: Agricrafter (Ours)</h4>
 
@@ -36,85 +36,37 @@ We compare Agricrafter with baseline methods on realistic crop growth generation
   </tr>
   <tr>
     <td align="center">
-      <video src="https://github.com/user-attachments/assets/c7a32569-e1cc-4727-afc9-0a721f5ee2b8" controls width="100">
-      </video>
-    </td>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/5544987a-f209-42e3-8554-8c46c5063eb2" controls width="100">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/a66cd49b-26e8-4312-9710-2bb438e4336f" controls width="100">
-      </video>
-    </td>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/761ee9f0-39a4-4ddc-b242-1a8a1287fccd" controls width="100">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/9bf91685-a9c3-47f8-8567-e75dfb1ffa23" controls width="100">
-      </video>
-    </td>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/69ed3bb3-ed86-40a4-baea-12d91c509df7" controls width="100">
-      </video>
-    </td>
-  </tr>
-    <tr>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/80c23bed-9f76-406d-bc55-183cdb3460da" controls width="100">
-      </video>
-    </td>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/7128cad4-a188-4f11-99d7-7df508d75ed2" controls width="100">
-      </video>
-    </td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/08226e9f-f2cb-41a6-983b-59669f25d506" controls width="80">
-      </video>
-    </td>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/af27a947-c93b-4b21-b6db-dd36dff83170" controls width="80">
-      </video>
-    </td>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/ce779574-a551-4bb8-8b65-2665baa7a268" controls width="80">
-      </video>
-    </td>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/123ff3ba-86a2-4083-bea3-c2bb9248e886" controls width="80">
-      </video>
-    </td>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/7805ae96-96b5-4494-b273-99ce5b201220" controls width="80">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <video src="https://github.com/user-attachments/assets/3763ee06-1332-49b9-bfff-5a8799dfde2c" controls width="80">
+      <video src="https://github.com/user-attachments/assets/c7a32569-e1cc-4727-afc9-0a721f5ee2b8" controls width="80">
       </video>
     </td>
     <td align="center">
       <video src="https://github.com/user-attachments/assets/5544987a-f209-42e3-8554-8c46c5063eb2" controls width="80">
       </video>
     </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/a66cd49b-26e8-4312-9710-2bb438e4336f" controls width="80">
+      </video>
+    </td>
     <td align="center">
       <video src="https://github.com/user-attachments/assets/761ee9f0-39a4-4ddc-b242-1a8a1287fccd" controls width="80">
       </video>
     </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/9bf91685-a9c3-47f8-8567-e75dfb1ffa23" controls width="80">
+      </video>
+    </td>
     <td align="center">
       <video src="https://github.com/user-attachments/assets/69ed3bb3-ed86-40a4-baea-12d91c509df7" controls width="80">
+      </video>
+    </td>
+  </tr>
+    <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/80c23bed-9f76-406d-bc55-183cdb3460da" controls width="80">
       </video>
     </td>
     <td align="center">
