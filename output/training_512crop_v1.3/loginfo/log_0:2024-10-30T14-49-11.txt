@@ -1,0 +1,340 @@
+2024-10-30 14:49:12,064-INFO: @lightning version: 1.9.3 [>=1.8 required]
+2024-10-30 14:49:12,064-INFO: ***** Configing Model *****
+2024-10-30 14:49:12,449-INFO: LatentVisualDiffusion: Running in v-prediction mode
+2024-10-30 14:49:58,996-INFO: >>> Load weights from pretrained checkpoint
+2024-10-30 14:50:02,676-INFO: >>> Loaded weights from pretrained checkpoint: checkpoints/dynamicrafter_512_v1/model.ckpt
+2024-10-30 14:50:02,696-INFO: Running on 1=1x1 GPUs
+2024-10-30 14:50:02,696-INFO: ***** Configing Data *****
+2024-10-30 14:50:03,057-INFO: train, CornDataset, 3180
+2024-10-30 14:50:03,058-INFO: ***** Configing Trainer *****
+2024-10-30 14:50:03,059-INFO: Caution: Saving checkpoints every n train steps without deleting. This might require some free space.
+2024-10-30 14:50:03,097-INFO: ***** Running the Loop *****
+2024-10-30 14:50:03,097-INFO: <Training in DDPSharded Mode>
+2024-10-30 14:50:06,582-INFO: @Training [1516] Full Paramters.
+2024-10-30 14:50:06,583-INFO: @Training [51] Paramters for Image_proj_model.
+2024-10-30 14:57:05,646-INFO: batch:199|epoch:0 [globalstep:99]: loss=0.19391480088233948
+2024-10-30 15:03:48,370-INFO: batch:399|epoch:0 [globalstep:199]: loss=0.22679409384727478
+2024-10-30 15:08:11,261-INFO: Log [train] batch <ep0_idx499_rank0> to tensorboard ...
+2024-10-30 15:08:19,890-INFO: Finish!
+2024-10-30 15:11:40,655-INFO: batch:599|epoch:0 [globalstep:299]: loss=0.3224860429763794
+2024-10-30 15:18:23,320-INFO: batch:799|epoch:0 [globalstep:399]: loss=0.34451863169670105
+2024-10-30 15:25:05,781-INFO: batch:999|epoch:0 [globalstep:499]: loss=0.2412765473127365
+2024-10-30 15:26:03,678-INFO: Log [train] batch <ep0_idx999_rank0> to tensorboard ...
+2024-10-30 15:26:07,083-INFO: Finish!
+2024-10-30 15:32:49,337-INFO: batch:1199|epoch:0 [globalstep:599]: loss=0.21193301677703857
+2024-10-30 15:39:31,761-INFO: batch:1399|epoch:0 [globalstep:699]: loss=0.45336848497390747
+2024-10-30 15:43:51,038-INFO: Log [train] batch <ep0_idx1499_rank0> to tensorboard ...
+2024-10-30 15:43:54,563-INFO: Finish!
+2024-10-30 15:53:40,938-INFO: batch:199|epoch:1 [globalstep:894]: loss=0.36388784646987915
+2024-10-30 16:00:43,705-INFO: batch:399|epoch:1 [globalstep:994]: loss=0.3919456899166107
+2024-10-30 16:05:21,866-INFO: Log [train] batch <ep1_idx499_rank0> to tensorboard ...
+2024-10-30 16:05:24,408-INFO: Finish!
+2024-10-30 16:08:45,715-INFO: batch:599|epoch:1 [globalstep:1094]: loss=0.26080408692359924
+2024-10-30 16:15:31,424-INFO: batch:799|epoch:1 [globalstep:1194]: loss=0.2118493914604187
+2024-10-30 16:22:14,144-INFO: batch:999|epoch:1 [globalstep:1294]: loss=0.3137734532356262
+2024-10-30 16:23:12,939-INFO: Log [train] batch <ep1_idx999_rank0> to tensorboard ...
+2024-10-30 16:23:15,956-INFO: Finish!
+2024-10-30 16:29:58,181-INFO: batch:1199|epoch:1 [globalstep:1394]: loss=0.20668700337409973
+2024-10-30 16:36:40,674-INFO: batch:1399|epoch:1 [globalstep:1494]: loss=0.2204722762107849
+2024-10-30 16:41:15,593-INFO: Log [train] batch <ep1_idx1499_rank0> to tensorboard ...
+2024-10-30 16:41:18,136-INFO: Finish!
+2024-10-30 16:51:04,858-INFO: batch:199|epoch:2 [globalstep:1689]: loss=0.35097622871398926
+2024-10-30 16:57:47,698-INFO: batch:399|epoch:2 [globalstep:1789]: loss=0.20593693852424622
+2024-10-30 17:02:10,194-INFO: Log [train] batch <ep2_idx499_rank0> to tensorboard ...
+2024-10-30 17:02:13,384-INFO: Finish!
+2024-10-30 17:05:34,616-INFO: batch:599|epoch:2 [globalstep:1889]: loss=0.17155882716178894
+2024-10-30 17:12:17,648-INFO: batch:799|epoch:2 [globalstep:1989]: loss=0.17875048518180847
+2024-10-30 17:19:25,473-INFO: batch:999|epoch:2 [globalstep:2089]: loss=0.2648460566997528
+2024-10-30 17:20:23,510-INFO: Log [train] batch <ep2_idx999_rank0> to tensorboard ...
+2024-10-30 17:20:26,899-INFO: Finish!
+2024-10-30 17:27:08,997-INFO: batch:1199|epoch:2 [globalstep:2189]: loss=0.2203976809978485
+2024-10-30 17:33:51,417-INFO: batch:1399|epoch:2 [globalstep:2289]: loss=0.22090333700180054
+2024-10-30 17:38:10,952-INFO: Log [train] batch <ep2_idx1499_rank0> to tensorboard ...
+2024-10-30 17:38:14,231-INFO: Finish!
+2024-10-30 17:48:06,067-INFO: batch:199|epoch:3 [globalstep:2484]: loss=0.1758565902709961
+2024-10-30 17:54:49,866-INFO: batch:399|epoch:3 [globalstep:2584]: loss=0.24857574701309204
+2024-10-30 17:59:09,911-INFO: Log [train] batch <ep3_idx499_rank0> to tensorboard ...
+2024-10-30 17:59:13,365-INFO: Finish!
+2024-10-30 18:02:35,168-INFO: batch:599|epoch:3 [globalstep:2684]: loss=0.36761656403541565
+2024-10-30 18:09:27,321-INFO: batch:799|epoch:3 [globalstep:2784]: loss=0.2226009964942932
+2024-10-30 18:16:18,836-INFO: batch:999|epoch:3 [globalstep:2884]: loss=0.31652942299842834
+2024-10-30 18:17:16,808-INFO: Log [train] batch <ep3_idx999_rank0> to tensorboard ...
+2024-10-30 18:17:19,435-INFO: Finish!
+2024-10-30 18:24:02,517-INFO: batch:1199|epoch:3 [globalstep:2984]: loss=0.2017696052789688
+2024-10-30 18:31:41,009-INFO: batch:1399|epoch:3 [globalstep:3084]: loss=0.22892576456069946
+2024-10-30 18:36:00,828-INFO: Log [train] batch <ep3_idx1499_rank0> to tensorboard ...
+2024-10-30 18:36:04,032-INFO: Finish!
+2024-10-30 18:45:54,162-INFO: batch:199|epoch:4 [globalstep:3279]: loss=0.21400371193885803
+2024-10-30 18:52:38,057-INFO: batch:399|epoch:4 [globalstep:3379]: loss=0.20619575679302216
+2024-10-30 18:56:59,965-INFO: Log [train] batch <ep4_idx499_rank0> to tensorboard ...
+2024-10-30 18:57:02,674-INFO: Finish!
+2024-10-30 19:00:24,359-INFO: batch:599|epoch:4 [globalstep:3479]: loss=0.2760697901248932
+2024-10-30 19:07:08,166-INFO: batch:799|epoch:4 [globalstep:3579]: loss=0.1943424642086029
+2024-10-30 19:13:53,193-INFO: batch:999|epoch:4 [globalstep:3679]: loss=0.312094509601593
+2024-10-30 19:14:51,205-INFO: Log [train] batch <ep4_idx999_rank0> to tensorboard ...
+2024-10-30 19:14:54,715-INFO: Finish!
+2024-10-30 19:21:41,908-INFO: batch:1199|epoch:4 [globalstep:3779]: loss=0.2266184389591217
+2024-10-30 19:28:25,928-INFO: batch:1399|epoch:4 [globalstep:3879]: loss=0.3375263810157776
+2024-10-30 19:32:46,458-INFO: Log [train] batch <ep4_idx1499_rank0> to tensorboard ...
+2024-10-30 19:32:48,860-INFO: Finish!
+2024-10-30 19:42:57,314-INFO: batch:199|epoch:5 [globalstep:4074]: loss=0.19022831320762634
+2024-10-30 19:49:45,283-INFO: batch:399|epoch:5 [globalstep:4174]: loss=0.21006366610527039
+2024-10-30 19:54:05,527-INFO: Log [train] batch <ep5_idx499_rank0> to tensorboard ...
+2024-10-30 19:54:08,805-INFO: Finish!
+2024-10-30 19:57:30,992-INFO: batch:599|epoch:5 [globalstep:4274]: loss=0.17755702137947083
+2024-10-30 20:04:21,284-INFO: batch:799|epoch:5 [globalstep:4374]: loss=0.33640342950820923
+2024-10-30 20:11:05,477-INFO: batch:999|epoch:5 [globalstep:4474]: loss=0.2914198040962219
+2024-10-30 20:12:04,528-INFO: Log [train] batch <ep5_idx999_rank0> to tensorboard ...
+2024-10-30 20:12:08,299-INFO: Finish!
+2024-10-30 20:19:24,381-INFO: batch:1199|epoch:5 [globalstep:4574]: loss=0.16858458518981934
+2024-10-30 20:26:10,305-INFO: batch:1399|epoch:5 [globalstep:4674]: loss=0.43822526931762695
+2024-10-30 20:30:30,626-INFO: Log [train] batch <ep5_idx1499_rank0> to tensorboard ...
+2024-10-30 20:30:33,659-INFO: Finish!
+2024-10-30 20:40:23,789-INFO: batch:199|epoch:6 [globalstep:4869]: loss=0.1872827410697937
+2024-10-30 20:47:07,688-INFO: batch:399|epoch:6 [globalstep:4969]: loss=0.3609907627105713
+2024-10-30 20:51:46,798-INFO: Log [train] batch <ep6_idx499_rank0> to tensorboard ...
+2024-10-30 20:51:49,938-INFO: Finish!
+2024-10-30 20:55:11,166-INFO: batch:599|epoch:6 [globalstep:5069]: loss=0.28300562500953674
+2024-10-30 21:02:01,385-INFO: batch:799|epoch:6 [globalstep:5169]: loss=0.24771177768707275
+2024-10-30 21:08:45,588-INFO: batch:999|epoch:6 [globalstep:5269]: loss=0.1835206151008606
+2024-10-30 21:09:45,292-INFO: Log [train] batch <ep6_idx999_rank0> to tensorboard ...
+2024-10-30 21:09:48,619-INFO: Finish!
+2024-10-30 21:16:33,600-INFO: batch:1199|epoch:6 [globalstep:5369]: loss=0.20469887554645538
+2024-10-30 21:23:20,847-INFO: batch:1399|epoch:6 [globalstep:5469]: loss=0.22234243154525757
+2024-10-30 21:27:42,849-INFO: Log [train] batch <ep6_idx1499_rank0> to tensorboard ...
+2024-10-30 21:27:45,869-INFO: Finish!
+2024-10-30 21:37:35,237-INFO: batch:199|epoch:7 [globalstep:5664]: loss=0.1976391077041626
+2024-10-30 21:44:19,543-INFO: batch:399|epoch:7 [globalstep:5764]: loss=0.2660546600818634
+2024-10-30 21:48:39,751-INFO: Log [train] batch <ep7_idx499_rank0> to tensorboard ...
+2024-10-30 21:48:42,322-INFO: Finish!
+2024-10-30 21:52:04,244-INFO: batch:599|epoch:7 [globalstep:5864]: loss=0.21300148963928223
+2024-10-30 21:58:48,773-INFO: batch:799|epoch:7 [globalstep:5964]: loss=0.24154582619667053
+2024-10-30 22:06:16,527-INFO: batch:999|epoch:7 [globalstep:6064]: loss=0.3269278109073639
+2024-10-30 22:07:15,236-INFO: Log [train] batch <ep7_idx999_rank0> to tensorboard ...
+2024-10-30 22:07:17,990-INFO: Finish!
+2024-10-30 22:14:07,459-INFO: batch:1199|epoch:7 [globalstep:6164]: loss=0.20693671703338623
+2024-10-30 22:21:03,358-INFO: batch:1399|epoch:7 [globalstep:6264]: loss=0.3459905982017517
+2024-10-30 22:25:26,268-INFO: Log [train] batch <ep7_idx1499_rank0> to tensorboard ...
+2024-10-30 22:25:29,493-INFO: Finish!
+2024-10-30 22:35:18,232-INFO: batch:199|epoch:8 [globalstep:6459]: loss=0.1761060357093811
+2024-10-30 22:42:02,818-INFO: batch:399|epoch:8 [globalstep:6559]: loss=0.20402005314826965
+2024-10-30 22:46:23,186-INFO: Log [train] batch <ep8_idx499_rank0> to tensorboard ...
+2024-10-30 22:46:26,419-INFO: Finish!
+2024-10-30 22:49:47,956-INFO: batch:599|epoch:8 [globalstep:6659]: loss=0.20941227674484253
+2024-10-30 22:56:32,363-INFO: batch:799|epoch:8 [globalstep:6759]: loss=0.2994198799133301
+2024-10-30 23:03:16,780-INFO: batch:999|epoch:8 [globalstep:6859]: loss=0.2615577280521393
+2024-10-30 23:04:15,056-INFO: Log [train] batch <ep8_idx999_rank0> to tensorboard ...
+2024-10-30 23:04:18,063-INFO: Finish!
+2024-10-30 23:11:02,676-INFO: batch:1199|epoch:8 [globalstep:6959]: loss=0.2040461152791977
+2024-10-30 23:18:31,164-INFO: batch:1399|epoch:8 [globalstep:7059]: loss=0.3860638439655304
+2024-10-30 23:22:55,350-INFO: Log [train] batch <ep8_idx1499_rank0> to tensorboard ...
+2024-10-30 23:22:58,143-INFO: Finish!
+2024-10-30 23:32:47,691-INFO: batch:199|epoch:9 [globalstep:7254]: loss=0.268595814704895
+2024-10-30 23:39:32,186-INFO: batch:399|epoch:9 [globalstep:7354]: loss=0.23487591743469238
+2024-10-30 23:43:52,368-INFO: Log [train] batch <ep9_idx499_rank0> to tensorboard ...
+2024-10-30 23:43:55,003-INFO: Finish!
+2024-10-30 23:47:17,375-INFO: batch:599|epoch:9 [globalstep:7454]: loss=0.18964475393295288
+2024-10-30 23:54:21,380-INFO: batch:799|epoch:9 [globalstep:7554]: loss=0.3505863547325134
+2024-10-31 00:01:06,122-INFO: batch:999|epoch:9 [globalstep:7654]: loss=0.21094205975532532
+2024-10-31 00:02:04,093-INFO: Log [train] batch <ep9_idx999_rank0> to tensorboard ...
+2024-10-31 00:02:06,654-INFO: Finish!
+2024-10-31 00:08:51,272-INFO: batch:1199|epoch:9 [globalstep:7754]: loss=0.2595122456550598
+2024-10-31 00:15:41,557-INFO: batch:1399|epoch:9 [globalstep:7854]: loss=0.25464025139808655
+2024-10-31 00:20:03,378-INFO: Log [train] batch <ep9_idx1499_rank0> to tensorboard ...
+2024-10-31 00:20:07,502-INFO: Finish!
+2024-10-31 00:30:18,588-INFO: batch:199|epoch:10 [globalstep:8049]: loss=0.1932326853275299
+2024-10-31 00:37:09,261-INFO: batch:399|epoch:10 [globalstep:8149]: loss=0.32244187593460083
+2024-10-31 00:41:29,842-INFO: Log [train] batch <ep10_idx499_rank0> to tensorboard ...
+2024-10-31 00:41:32,430-INFO: Finish!
+2024-10-31 00:44:54,164-INFO: batch:599|epoch:10 [globalstep:8249]: loss=0.24599294364452362
+2024-10-31 00:51:38,539-INFO: batch:799|epoch:10 [globalstep:8349]: loss=0.22962048649787903
+2024-10-31 00:58:23,064-INFO: batch:999|epoch:10 [globalstep:8449]: loss=0.26521041989326477
+2024-10-31 00:59:21,033-INFO: Log [train] batch <ep10_idx999_rank0> to tensorboard ...
+2024-10-31 00:59:24,436-INFO: Finish!
+2024-10-31 01:06:08,425-INFO: batch:1199|epoch:10 [globalstep:8549]: loss=0.29643598198890686
+2024-10-31 01:12:53,573-INFO: batch:1399|epoch:10 [globalstep:8649]: loss=0.22787606716156006
+2024-10-31 01:17:23,623-INFO: Log [train] batch <ep10_idx1499_rank0> to tensorboard ...
+2024-10-31 01:17:28,605-INFO: Finish!
+2024-10-31 01:27:17,315-INFO: batch:199|epoch:11 [globalstep:8844]: loss=0.3174695670604706
+2024-10-31 01:34:01,765-INFO: batch:399|epoch:11 [globalstep:8944]: loss=0.24299219250679016
+2024-10-31 01:38:22,231-INFO: Log [train] batch <ep11_idx499_rank0> to tensorboard ...
+2024-10-31 01:38:25,054-INFO: Finish!
+2024-10-31 01:42:33,285-INFO: batch:599|epoch:11 [globalstep:9044]: loss=0.29312819242477417
+2024-10-31 01:49:17,678-INFO: batch:799|epoch:11 [globalstep:9144]: loss=0.21024459600448608
+2024-10-31 01:56:01,636-INFO: batch:999|epoch:11 [globalstep:9244]: loss=0.2630784213542938
+2024-10-31 01:56:59,810-INFO: Log [train] batch <ep11_idx999_rank0> to tensorboard ...
+2024-10-31 01:57:03,544-INFO: Finish!
+2024-10-31 02:03:47,051-INFO: batch:1199|epoch:11 [globalstep:9344]: loss=0.20070114731788635
+2024-10-31 02:10:42,111-INFO: batch:1399|epoch:11 [globalstep:9444]: loss=0.21986763179302216
+2024-10-31 02:15:03,744-INFO: Log [train] batch <ep11_idx1499_rank0> to tensorboard ...
+2024-10-31 02:15:06,123-INFO: Finish!
+2024-10-31 02:24:54,469-INFO: batch:199|epoch:12 [globalstep:9639]: loss=0.33099567890167236
+2024-10-31 02:31:38,408-INFO: batch:399|epoch:12 [globalstep:9739]: loss=0.235228031873703
+2024-10-31 02:35:58,507-INFO: Log [train] batch <ep12_idx499_rank0> to tensorboard ...
+2024-10-31 02:36:01,874-INFO: Finish!
+2024-10-31 02:39:23,988-INFO: batch:599|epoch:12 [globalstep:9839]: loss=0.15518978238105774
+2024-10-31 02:46:08,006-INFO: batch:799|epoch:12 [globalstep:9939]: loss=0.39535754919052124
+2024-10-31 02:53:12,023-INFO: batch:999|epoch:12 [globalstep:10039]: loss=0.21608105301856995
+2024-10-31 02:54:09,968-INFO: Log [train] batch <ep12_idx999_rank0> to tensorboard ...
+2024-10-31 02:54:13,061-INFO: Finish!
+2024-10-31 03:00:57,134-INFO: batch:1199|epoch:12 [globalstep:10139]: loss=0.269864946603775
+2024-10-31 03:07:53,403-INFO: batch:1399|epoch:12 [globalstep:10239]: loss=0.20783840119838715
+2024-10-31 03:12:20,295-INFO: Log [train] batch <ep12_idx1499_rank0> to tensorboard ...
+2024-10-31 03:12:23,378-INFO: Finish!
+2024-10-31 03:22:11,413-INFO: batch:199|epoch:13 [globalstep:10434]: loss=0.17849130928516388
+2024-10-31 03:29:15,742-INFO: batch:399|epoch:13 [globalstep:10534]: loss=0.2134236842393875
+2024-10-31 03:33:36,125-INFO: Log [train] batch <ep13_idx499_rank0> to tensorboard ...
+2024-10-31 03:33:39,999-INFO: Finish!
+2024-10-31 03:37:02,452-INFO: batch:599|epoch:13 [globalstep:10634]: loss=0.19780579209327698
+2024-10-31 03:43:47,165-INFO: batch:799|epoch:13 [globalstep:10734]: loss=0.23384511470794678
+2024-10-31 03:50:31,141-INFO: batch:999|epoch:13 [globalstep:10834]: loss=0.176058828830719
+2024-10-31 03:51:29,280-INFO: Log [train] batch <ep13_idx999_rank0> to tensorboard ...
+2024-10-31 03:51:31,525-INFO: Finish!
+2024-10-31 03:58:14,903-INFO: batch:1199|epoch:13 [globalstep:10934]: loss=0.2716348171234131
+2024-10-31 04:05:42,640-INFO: batch:1399|epoch:13 [globalstep:11034]: loss=0.4006899297237396
+2024-10-31 04:10:04,743-INFO: Log [train] batch <ep13_idx1499_rank0> to tensorboard ...
+2024-10-31 04:10:07,734-INFO: Finish!
+2024-10-31 04:19:55,896-INFO: batch:199|epoch:14 [globalstep:11229]: loss=0.19955310225486755
+2024-10-31 04:26:39,671-INFO: batch:399|epoch:14 [globalstep:11329]: loss=0.20409473776817322
+2024-10-31 04:30:59,718-INFO: Log [train] batch <ep14_idx499_rank0> to tensorboard ...
+2024-10-31 04:31:03,200-INFO: Finish!
+2024-10-31 04:34:25,406-INFO: batch:599|epoch:14 [globalstep:11429]: loss=0.2813975512981415
+2024-10-31 04:41:09,501-INFO: batch:799|epoch:14 [globalstep:11529]: loss=0.19492283463478088
+2024-10-31 04:47:53,433-INFO: batch:999|epoch:14 [globalstep:11629]: loss=0.4412081837654114
+2024-10-31 04:48:51,419-INFO: Log [train] batch <ep14_idx999_rank0> to tensorboard ...
+2024-10-31 04:48:54,049-INFO: Finish!
+2024-10-31 04:55:37,559-INFO: batch:1199|epoch:14 [globalstep:11729]: loss=0.262261301279068
+2024-10-31 05:02:21,251-INFO: batch:1399|epoch:14 [globalstep:11829]: loss=0.2081488072872162
+2024-10-31 05:06:54,315-INFO: Log [train] batch <ep14_idx1499_rank0> to tensorboard ...
+2024-10-31 05:06:58,123-INFO: Finish!
+2024-10-31 05:17:26,381-INFO: batch:199|epoch:15 [globalstep:12024]: loss=0.20020054280757904
+2024-10-31 05:24:10,621-INFO: batch:399|epoch:15 [globalstep:12124]: loss=0.18327826261520386
+2024-10-31 05:28:30,483-INFO: Log [train] batch <ep15_idx499_rank0> to tensorboard ...
+2024-10-31 05:28:32,841-INFO: Finish!
+2024-10-31 05:31:54,664-INFO: batch:599|epoch:15 [globalstep:12224]: loss=0.15880674123764038
+2024-10-31 05:38:38,869-INFO: batch:799|epoch:15 [globalstep:12324]: loss=0.210431307554245
+2024-10-31 05:45:22,991-INFO: batch:999|epoch:15 [globalstep:12424]: loss=0.40078818798065186
+2024-10-31 05:46:20,942-INFO: Log [train] batch <ep15_idx999_rank0> to tensorboard ...
+2024-10-31 05:46:24,083-INFO: Finish!
+2024-10-31 05:53:07,358-INFO: batch:1199|epoch:15 [globalstep:12524]: loss=0.22415541112422943
+2024-10-31 06:00:06,247-INFO: batch:1399|epoch:15 [globalstep:12624]: loss=0.1968635767698288
+2024-10-31 06:04:30,029-INFO: Log [train] batch <ep15_idx1499_rank0> to tensorboard ...
+2024-10-31 06:04:33,584-INFO: Finish!
+2024-10-31 06:14:21,909-INFO: batch:199|epoch:16 [globalstep:12819]: loss=0.26918256282806396
+2024-10-31 06:21:06,326-INFO: batch:399|epoch:16 [globalstep:12919]: loss=0.27392345666885376
+2024-10-31 06:25:26,606-INFO: Log [train] batch <ep16_idx499_rank0> to tensorboard ...
+2024-10-31 06:25:29,276-INFO: Finish!
+2024-10-31 06:29:12,706-INFO: batch:599|epoch:16 [globalstep:13019]: loss=0.21795903146266937
+2024-10-31 06:35:56,894-INFO: batch:799|epoch:16 [globalstep:13119]: loss=0.17285215854644775
+2024-10-31 06:42:40,654-INFO: batch:999|epoch:16 [globalstep:13219]: loss=0.1832759529352188
+2024-10-31 06:43:38,610-INFO: Log [train] batch <ep16_idx999_rank0> to tensorboard ...
+2024-10-31 06:43:41,275-INFO: Finish!
+2024-10-31 06:50:25,013-INFO: batch:1199|epoch:16 [globalstep:13319]: loss=0.3836621642112732
+2024-10-31 06:57:09,012-INFO: batch:1399|epoch:16 [globalstep:13419]: loss=0.23923665285110474
+2024-10-31 07:01:39,242-INFO: Log [train] batch <ep16_idx1499_rank0> to tensorboard ...
+2024-10-31 07:01:43,388-INFO: Finish!
+2024-10-31 07:11:53,319-INFO: batch:199|epoch:17 [globalstep:13614]: loss=0.2389034777879715
+2024-10-31 07:18:37,304-INFO: batch:399|epoch:17 [globalstep:13714]: loss=0.2497783750295639
+2024-10-31 07:22:57,165-INFO: Log [train] batch <ep17_idx499_rank0> to tensorboard ...
+2024-10-31 07:23:00,444-INFO: Finish!
+2024-10-31 07:26:22,724-INFO: batch:599|epoch:17 [globalstep:13814]: loss=0.3151203989982605
+2024-10-31 07:33:06,581-INFO: batch:799|epoch:17 [globalstep:13914]: loss=0.19167757034301758
+2024-10-31 07:40:32,523-INFO: batch:999|epoch:17 [globalstep:14014]: loss=0.2501923441886902
+2024-10-31 07:41:30,469-INFO: Log [train] batch <ep17_idx999_rank0> to tensorboard ...
+2024-10-31 07:41:33,858-INFO: Finish!
+2024-10-31 07:48:17,378-INFO: batch:1199|epoch:17 [globalstep:14114]: loss=0.3247915506362915
+2024-10-31 07:55:14,204-INFO: batch:1399|epoch:17 [globalstep:14214]: loss=0.34407445788383484
+2024-10-31 07:59:36,196-INFO: Log [train] batch <ep17_idx1499_rank0> to tensorboard ...
+2024-10-31 07:59:39,208-INFO: Finish!
+2024-10-31 08:09:26,863-INFO: batch:199|epoch:18 [globalstep:14409]: loss=0.2347334921360016
+2024-10-31 08:16:10,816-INFO: batch:399|epoch:18 [globalstep:14509]: loss=0.19874078035354614
+2024-10-31 08:20:30,584-INFO: Log [train] batch <ep18_idx499_rank0> to tensorboard ...
+2024-10-31 08:20:33,870-INFO: Finish!
+2024-10-31 08:23:55,314-INFO: batch:599|epoch:18 [globalstep:14609]: loss=0.37660229206085205
+2024-10-31 08:30:39,001-INFO: batch:799|epoch:18 [globalstep:14709]: loss=0.21719226241111755
+2024-10-31 08:37:22,980-INFO: batch:999|epoch:18 [globalstep:14809]: loss=0.43970564007759094
+2024-10-31 08:38:20,917-INFO: Log [train] batch <ep18_idx999_rank0> to tensorboard ...
+2024-10-31 08:38:23,920-INFO: Finish!
+2024-10-31 08:45:07,346-INFO: batch:1199|epoch:18 [globalstep:14909]: loss=0.2716706097126007
+2024-10-31 08:52:38,980-INFO: batch:1399|epoch:18 [globalstep:15009]: loss=0.22300148010253906
+2024-10-31 08:57:09,080-INFO: Log [train] batch <ep18_idx1499_rank0> to tensorboard ...
+2024-10-31 08:57:12,632-INFO: Finish!
+2024-10-31 09:07:00,825-INFO: batch:199|epoch:19 [globalstep:15204]: loss=0.3323274850845337
+2024-10-31 09:13:44,978-INFO: batch:399|epoch:19 [globalstep:15304]: loss=0.26889508962631226
+2024-10-31 09:18:04,792-INFO: Log [train] batch <ep19_idx499_rank0> to tensorboard ...
+2024-10-31 09:18:07,375-INFO: Finish!
+2024-10-31 09:21:28,787-INFO: batch:599|epoch:19 [globalstep:15404]: loss=0.18717922270298004
+2024-10-31 09:28:12,545-INFO: batch:799|epoch:19 [globalstep:15504]: loss=0.31756284832954407
+2024-10-31 09:34:56,319-INFO: batch:999|epoch:19 [globalstep:15604]: loss=0.25519537925720215
+2024-10-31 09:35:54,254-INFO: Log [train] batch <ep19_idx999_rank0> to tensorboard ...
+2024-10-31 09:35:57,397-INFO: Finish!
+2024-10-31 09:42:40,894-INFO: batch:1199|epoch:19 [globalstep:15704]: loss=0.3270628750324249
+2024-10-31 09:49:25,328-INFO: batch:1399|epoch:19 [globalstep:15804]: loss=0.2604081630706787
+2024-10-31 09:53:57,114-INFO: Log [train] batch <ep19_idx1499_rank0> to tensorboard ...
+2024-10-31 09:54:00,556-INFO: Finish!
+2024-10-31 10:03:48,415-INFO: batch:199|epoch:20 [globalstep:15999]: loss=0.26671457290649414
+2024-10-31 10:10:52,272-INFO: batch:399|epoch:20 [globalstep:16099]: loss=0.19638362526893616
+2024-10-31 10:15:12,269-INFO: Log [train] batch <ep20_idx499_rank0> to tensorboard ...
+2024-10-31 10:15:15,775-INFO: Finish!
+2024-10-31 10:18:37,461-INFO: batch:599|epoch:20 [globalstep:16199]: loss=0.20950046181678772
+2024-10-31 10:25:21,124-INFO: batch:799|epoch:20 [globalstep:16299]: loss=0.3113352358341217
+2024-10-31 10:32:05,263-INFO: batch:999|epoch:20 [globalstep:16399]: loss=0.2335960566997528
+2024-10-31 10:33:03,896-INFO: Log [train] batch <ep20_idx999_rank0> to tensorboard ...
+2024-10-31 10:33:06,803-INFO: Finish!
+2024-10-31 10:39:50,828-INFO: batch:1199|epoch:20 [globalstep:16499]: loss=0.19376713037490845
+2024-10-31 10:46:53,134-INFO: batch:1399|epoch:20 [globalstep:16599]: loss=0.3109610378742218
+2024-10-31 10:51:29,610-INFO: Log [train] batch <ep20_idx1499_rank0> to tensorboard ...
+2024-10-31 10:51:33,142-INFO: Finish!
+2024-10-31 11:01:29,632-INFO: batch:199|epoch:21 [globalstep:16794]: loss=0.2702566087245941
+2024-10-31 11:08:13,138-INFO: batch:399|epoch:21 [globalstep:16894]: loss=0.19796010851860046
+2024-10-31 11:12:33,855-INFO: Log [train] batch <ep21_idx499_rank0> to tensorboard ...
+2024-10-31 11:12:37,212-INFO: Finish!
+2024-10-31 11:15:58,910-INFO: batch:599|epoch:21 [globalstep:16994]: loss=0.21887856721878052
+2024-10-31 11:23:09,847-INFO: batch:799|epoch:21 [globalstep:17094]: loss=0.18598845601081848
+2024-10-31 11:29:54,235-INFO: batch:999|epoch:21 [globalstep:17194]: loss=0.1845124065876007
+2024-10-31 11:30:52,513-INFO: Log [train] batch <ep21_idx999_rank0> to tensorboard ...
+2024-10-31 11:30:54,960-INFO: Finish!
+2024-10-31 11:37:38,946-INFO: batch:1199|epoch:21 [globalstep:17294]: loss=0.2012704610824585
+2024-10-31 11:44:23,161-INFO: batch:1399|epoch:21 [globalstep:17394]: loss=0.4023608863353729
+2024-10-31 11:48:43,703-INFO: Log [train] batch <ep21_idx1499_rank0> to tensorboard ...
+2024-10-31 11:48:46,760-INFO: Finish!
+2024-10-31 11:58:43,431-INFO: batch:199|epoch:22 [globalstep:17589]: loss=0.4329773783683777
+2024-10-31 12:05:27,310-INFO: batch:399|epoch:22 [globalstep:17689]: loss=0.21436452865600586
+2024-10-31 12:09:48,696-INFO: Log [train] batch <ep22_idx499_rank0> to tensorboard ...
+2024-10-31 12:09:51,807-INFO: Finish!
+2024-10-31 12:13:13,416-INFO: batch:599|epoch:22 [globalstep:17789]: loss=0.21105721592903137
+2024-10-31 12:19:57,285-INFO: batch:799|epoch:22 [globalstep:17889]: loss=0.22056330740451813
+2024-10-31 12:26:41,315-INFO: batch:999|epoch:22 [globalstep:17989]: loss=0.22592617571353912
+2024-10-31 12:27:39,236-INFO: Log [train] batch <ep22_idx999_rank0> to tensorboard ...
+2024-10-31 12:27:42,273-INFO: Finish!
+2024-10-31 12:35:02,089-INFO: batch:1199|epoch:22 [globalstep:18089]: loss=0.20883578062057495
+2024-10-31 12:41:45,918-INFO: batch:1399|epoch:22 [globalstep:18189]: loss=0.1920563131570816
+2024-10-31 12:46:09,678-INFO: Log [train] batch <ep22_idx1499_rank0> to tensorboard ...
+2024-10-31 12:46:12,662-INFO: Finish!
+2024-10-31 12:56:02,968-INFO: batch:199|epoch:23 [globalstep:18384]: loss=0.2230103313922882
+2024-10-31 13:02:47,061-INFO: batch:399|epoch:23 [globalstep:18484]: loss=0.31037184596061707
+2024-10-31 13:07:07,144-INFO: Log [train] batch <ep23_idx499_rank0> to tensorboard ...
+2024-10-31 13:07:10,151-INFO: Finish!
+2024-10-31 13:10:31,942-INFO: batch:599|epoch:23 [globalstep:18584]: loss=0.21974703669548035
+2024-10-31 13:17:18,695-INFO: batch:799|epoch:23 [globalstep:18684]: loss=0.34447550773620605
+2024-10-31 13:24:02,550-INFO: batch:999|epoch:23 [globalstep:18784]: loss=0.17942166328430176
+2024-10-31 13:25:01,768-INFO: Log [train] batch <ep23_idx999_rank0> to tensorboard ...
+2024-10-31 13:25:04,738-INFO: Finish!
+2024-10-31 13:31:47,933-INFO: batch:1199|epoch:23 [globalstep:18884]: loss=0.23947715759277344
+2024-10-31 13:38:31,676-INFO: batch:1399|epoch:23 [globalstep:18984]: loss=0.2502843737602234
+2024-10-31 13:43:13,399-INFO: Log [train] batch <ep23_idx1499_rank0> to tensorboard ...
+2024-10-31 13:43:16,663-INFO: Finish!
+2024-10-31 13:53:10,742-INFO: batch:199|epoch:24 [globalstep:19179]: loss=0.20709742605686188
+2024-10-31 13:59:59,032-INFO: batch:399|epoch:24 [globalstep:19279]: loss=0.2785722315311432
+2024-10-31 14:04:20,474-INFO: Log [train] batch <ep24_idx499_rank0> to tensorboard ...
+2024-10-31 14:04:23,411-INFO: Finish!
+2024-10-31 14:07:45,165-INFO: batch:599|epoch:24 [globalstep:19379]: loss=0.30098530650138855
+2024-10-31 14:14:28,941-INFO: batch:799|epoch:24 [globalstep:19479]: loss=0.3256744146347046
+2024-10-31 14:21:38,837-INFO: batch:999|epoch:24 [globalstep:19579]: loss=0.20473529398441315
+2024-10-31 14:22:37,298-INFO: Log [train] batch <ep24_idx999_rank0> to tensorboard ...
+2024-10-31 14:22:39,664-INFO: Finish!
+2024-10-31 14:29:26,159-INFO: batch:1199|epoch:24 [globalstep:19679]: loss=0.21792028844356537
+2024-10-31 14:36:09,731-INFO: batch:1399|epoch:24 [globalstep:19779]: loss=0.22779354453086853
+2024-10-31 14:40:35,903-INFO: Log [train] batch <ep24_idx1499_rank0> to tensorboard ...
+2024-10-31 14:40:39,221-INFO: Finish!
+2024-10-31 14:50:27,604-INFO: batch:199|epoch:25 [globalstep:19974]: loss=0.2528642416000366

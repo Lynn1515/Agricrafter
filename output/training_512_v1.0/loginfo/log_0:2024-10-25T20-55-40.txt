@@ -1,0 +1,4 @@
+2024-10-25 20:55:40,151-INFO: @lightning version: 1.9.3 [>=1.8 required]
+2024-10-25 20:55:40,151-INFO: ***** Configing Model *****
+2024-10-25 20:55:40,379-INFO: LatentVisualDiffusion: Running in v-prediction mode
+2024-10-25 20:56:18,004-INFO: >>> Load weights from pretrained checkpoint

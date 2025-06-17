@@ -1,0 +1,10 @@
+2024-10-25 20:55:40,120-INFO: @lightning version: 1.9.3 [>=1.8 required]
+2024-10-25 20:55:40,120-INFO: ***** Configing Model *****
+2024-10-25 20:55:40,343-INFO: LatentVisualDiffusion: Running in v-prediction mode
+2024-10-25 20:56:16,096-INFO: >>> Load weights from pretrained checkpoint
+2024-10-25 20:56:23,807-INFO: >>> Loaded weights from pretrained checkpoint: checkpoints/dynamicrafter_512_v1/model.ckpt
+2024-10-25 20:56:24,006-INFO: Running on 2=1x2 GPUs
+2024-10-25 20:56:24,006-INFO: ***** Configing Data *****
+2024-10-25 20:56:24,153-INFO: train, CornDataset, 115
+2024-10-25 20:56:24,153-INFO: ***** Configing Trainer *****
+2024-10-25 20:56:24,155-INFO: Caution: Saving checkpoints every n train steps without deleting. This might require some free space.

@@ -1,0 +1,32 @@
+2024-11-06 11:49:56,458-INFO: @lightning version: 1.9.3 [>=1.8 required]
+2024-11-06 11:49:56,459-INFO: ***** Configing Model *****
+2024-11-06 11:50:13,440-INFO: LatentVisualDiffusion: Running in v-prediction mode
+2024-11-06 11:51:50,292-INFO: >>> Load weights from pretrained checkpoint
+2024-11-06 11:52:14,655-INFO: >>> Loaded weights from pretrained checkpoint: checkpoints/dynamicrafter_512_v1/model.ckpt
+2024-11-06 11:52:14,669-INFO: Running on 1=1x1 GPUs
+2024-11-06 11:52:14,669-INFO: ***** Configing Data *****
+2024-11-06 11:52:35,570-INFO: train, CornDataset, 6848
+2024-11-06 11:52:35,570-INFO: ***** Configing Trainer *****
+2024-11-06 11:52:35,574-INFO: Caution: Saving checkpoints every n train steps without deleting. This might require some free space.
+2024-11-06 11:52:35,747-INFO: ***** Running the Loop *****
+2024-11-06 11:52:35,747-INFO: <Training in DDPSharded Mode>
+2024-11-06 11:52:42,947-INFO: @Training [1516] Full Paramters.
+2024-11-06 11:52:42,948-INFO: @Training [51] Paramters for Image_proj_model.
+2024-11-06 11:59:49,009-INFO: batch:199|epoch:0 [globalstep:99]: loss=0.25358647108078003
+2024-11-06 12:06:29,414-INFO: batch:399|epoch:0 [globalstep:199]: loss=0.24953152239322662
+2024-11-06 12:10:49,670-INFO: Log [train] batch <ep0_idx499_rank0> to tensorboard ...
+2024-11-06 12:10:59,813-INFO: Finish!
+2024-11-06 12:14:19,233-INFO: batch:599|epoch:0 [globalstep:299]: loss=0.27060943841934204
+2024-11-06 12:20:59,371-INFO: batch:799|epoch:0 [globalstep:399]: loss=0.3804522156715393
+2024-11-06 12:27:39,449-INFO: batch:999|epoch:0 [globalstep:499]: loss=0.25127264857292175
+2024-11-06 12:28:37,458-INFO: Log [train] batch <ep0_idx999_rank0> to tensorboard ...
+2024-11-06 12:28:41,535-INFO: Finish!
+2024-11-06 12:35:20,687-INFO: batch:1199|epoch:0 [globalstep:599]: loss=0.23729217052459717
+2024-11-06 12:42:00,799-INFO: batch:1399|epoch:0 [globalstep:699]: loss=0.5151456594467163
+2024-11-06 12:46:18,806-INFO: Log [train] batch <ep0_idx1499_rank0> to tensorboard ...
+2024-11-06 12:46:22,291-INFO: Finish!
+2024-11-06 12:49:41,670-INFO: batch:1599|epoch:0 [globalstep:799]: loss=0.21220506727695465
+2024-11-06 12:56:29,596-INFO: batch:1799|epoch:0 [globalstep:899]: loss=0.2742496132850647
+2024-11-06 13:03:12,243-INFO: batch:1999|epoch:0 [globalstep:999]: loss=0.27943235635757446
+2024-11-06 13:04:10,887-INFO: Log [train] batch <ep0_idx1999_rank0> to tensorboard ...
+2024-11-06 13:04:14,569-INFO: Finish!

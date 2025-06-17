@@ -1,0 +1,28 @@
+2024-11-07 13:49:10,113-INFO: @lightning version: 1.9.3 [>=1.8 required]
+2024-11-07 13:49:10,114-INFO: ***** Configing Model *****
+2024-11-07 13:49:17,312-INFO: LatentVisualDiffusion: Running in v-prediction mode
+2024-11-07 13:50:12,454-INFO: >>> Load weights from pretrained checkpoint
+2024-11-07 13:50:39,235-INFO: >>> Loaded weights from pretrained checkpoint: checkpoints/dynamicrafter_512_v1/model.ckpt
+2024-11-07 13:50:39,248-INFO: Running on 1=1x1 GPUs
+2024-11-07 13:50:39,248-INFO: ***** Configing Data *****
+2024-11-07 13:50:51,656-INFO: train, CornDataset, 6848
+2024-11-07 13:50:51,656-INFO: ***** Configing Trainer *****
+2024-11-07 13:50:51,659-INFO: Caution: Saving checkpoints every n train steps without deleting. This might require some free space.
+2024-11-07 13:50:51,781-INFO: ***** Running the Loop *****
+2024-11-07 13:50:51,781-INFO: <Training in DDPSharded Mode>
+2024-11-07 13:50:57,890-INFO: @Training [1516] Full Paramters.
+2024-11-07 13:50:57,890-INFO: @Training [51] Paramters for Image_proj_model.
+2024-11-07 13:58:02,985-INFO: batch:199|epoch:0 [globalstep:99]: loss=0.25352251529693604
+2024-11-07 14:04:44,032-INFO: batch:399|epoch:0 [globalstep:199]: loss=0.24970166385173798
+2024-11-07 14:09:04,866-INFO: Log [train] batch <ep0_idx499_rank0> to tensorboard ...
+2024-11-07 14:09:12,869-INFO: Finish!
+2024-11-07 14:12:32,324-INFO: batch:599|epoch:0 [globalstep:299]: loss=0.27066123485565186
+2024-11-07 14:19:12,889-INFO: batch:799|epoch:0 [globalstep:399]: loss=0.3804093599319458
+2024-11-07 14:25:53,243-INFO: batch:999|epoch:0 [globalstep:499]: loss=0.25126779079437256
+2024-11-07 14:26:51,122-INFO: Log [train] batch <ep0_idx999_rank0> to tensorboard ...
+2024-11-07 14:26:54,927-INFO: Finish!
+2024-11-07 14:33:34,575-INFO: batch:1199|epoch:0 [globalstep:599]: loss=0.23746369779109955
+2024-11-07 14:40:15,004-INFO: batch:1399|epoch:0 [globalstep:699]: loss=0.5150687098503113
+2024-11-07 14:44:33,090-INFO: Log [train] batch <ep0_idx1499_rank0> to tensorboard ...
+2024-11-07 14:44:36,605-INFO: Finish!
+2024-11-07 14:47:56,098-INFO: batch:1599|epoch:0 [globalstep:799]: loss=0.2121589183807373

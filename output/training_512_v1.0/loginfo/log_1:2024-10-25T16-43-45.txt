@@ -1,0 +1,7 @@
+2024-10-25 16:43:45,177-INFO: @lightning version: 1.9.3 [>=1.8 required]
+2024-10-25 16:43:45,177-INFO: ***** Configing Model *****
+2024-10-25 16:43:48,379-INFO: LatentVisualDiffusion: Running in v-prediction mode
+2024-10-25 16:45:01,736-INFO: >>> Load weights from pretrained checkpoint
+2024-10-25 16:46:04,187-INFO: >>> Loaded weights from pretrained checkpoint: checkpoints/dynamicrafter_512_v1/model.ckpt
+2024-10-25 16:46:04,690-INFO: Running on 2=1x2 GPUs
+2024-10-25 16:46:04,691-INFO: ***** Configing Data *****

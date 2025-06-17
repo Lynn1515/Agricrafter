@@ -1,0 +1,24 @@
+2024-11-06 09:38:42,542-INFO: @lightning version: 1.9.3 [>=1.8 required]
+2024-11-06 09:38:42,543-INFO: ***** Configing Model *****
+2024-11-06 09:38:42,904-INFO: LatentVisualDiffusion: Running in v-prediction mode
+2024-11-06 09:40:06,001-INFO: >>> Load weights from pretrained checkpoint
+2024-11-06 09:40:40,267-INFO: >>> Loaded weights from pretrained checkpoint: checkpoints/dynamicrafter_512_v1/model.ckpt
+2024-11-06 09:40:40,281-INFO: Running on 1=1x1 GPUs
+2024-11-06 09:40:40,281-INFO: ***** Configing Data *****
+2024-11-06 09:41:02,922-INFO: train, CornDataset, 6848
+2024-11-06 09:41:02,922-INFO: ***** Configing Trainer *****
+2024-11-06 09:41:02,925-INFO: Caution: Saving checkpoints every n train steps without deleting. This might require some free space.
+2024-11-06 09:41:03,036-INFO: ***** Running the Loop *****
+2024-11-06 09:41:03,036-INFO: <Training in DDPSharded Mode>
+2024-11-06 09:41:07,342-INFO: @Training [1516] Full Paramters.
+2024-11-06 09:41:07,342-INFO: @Training [51] Paramters for Image_proj_model.
+2024-11-06 09:48:05,532-INFO: batch:199|epoch:0 [globalstep:99]: loss=0.25359201431274414
+2024-11-06 09:54:45,160-INFO: batch:399|epoch:0 [globalstep:199]: loss=0.2496158480644226
+2024-11-06 09:59:05,084-INFO: Log [train] batch <ep0_idx499_rank0> to tensorboard ...
+2024-11-06 09:59:22,759-INFO: Finish!
+2024-11-06 10:02:41,521-INFO: batch:599|epoch:0 [globalstep:299]: loss=0.27063342928886414
+2024-11-06 10:09:20,512-INFO: batch:799|epoch:0 [globalstep:399]: loss=0.3804951310157776
+2024-11-06 10:15:59,596-INFO: batch:999|epoch:0 [globalstep:499]: loss=0.25126728415489197
+2024-11-06 10:16:57,415-INFO: Log [train] batch <ep0_idx999_rank0> to tensorboard ...
+2024-11-06 10:17:01,314-INFO: Finish!
+2024-11-06 10:23:39,670-INFO: batch:1199|epoch:0 [globalstep:599]: loss=0.2369493544101715
