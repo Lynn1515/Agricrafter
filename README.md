@@ -30,18 +30,15 @@ We compare Agricrafter with 5 baseline methods on realistic crop growth generati
       </video>
     </td>
     <td align="center">
-      <video width="200" controls>
-        <source src="https://github.com/user-attachments/assets/08226e9f-f2cb-41a6-983b-59669f25d506" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/08226e9f-f2cb-41a6-983b-59669f25d506" controls width="80">
       </video>
     </td>
     <td align="center">
-      <video width="200" controls>
-        <source src="https://github.com/user-attachments/assets/16920227-bf18-4ce0-8d59-55f0f2dc9c41" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/16920227-bf18-4ce0-8d59-55f0f2dc9c41" controls width="80">
       </video>
     </td>
     <td align="center">
-      <video width="200" controls>
-        <source src="https://github.com/user-attachments/assets/ce779574-a551-4bb8-8b65-2665baa7a268" type="video/mp4">
+      <video src="https://github.com/user-attachments/assets/ce779574-a551-4bb8-8b65-2665baa7a268" controls width="80">
       </video>
     </td>
     <td align="center">
