@@ -25,36 +25,29 @@ We compare Agricrafter with 5 baseline methods on realistic crop growth generati
 
 <table>
   <tr>
-    <td align="center"><b>Baseline 1</b></td>
-    <td align="center"><b>Baseline 2</b></td>
-    <td align="center"><b>Baseline 3</b></td>
-    <td align="center"><b>Baseline 4</b></td>
-    <td align="center"><b>Baseline 5</b></td>
-  </tr>
-  <tr>
     <td align="center">
       <video width="200" controls>
-        <source src="assets/baseline_video/0001.mp4" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/7805ae96-96b5-4494-b273-99ce5b201220" type="video/mp4">
       </video>
     </td>
     <td align="center">
       <video width="200" controls>
-        <source src="assets/baseline_video/0002.mp4" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/08226e9f-f2cb-41a6-983b-59669f25d506" type="video/mp4">
       </video>
     </td>
     <td align="center">
       <video width="200" controls>
-        <source src="assets/baseline_video/0003.mp4" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/16920227-bf18-4ce0-8d59-55f0f2dc9c41" type="video/mp4">
       </video>
     </td>
     <td align="center">
       <video width="200" controls>
-        <source src="assets/baseline_video/0004.mp4" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/ce779574-a551-4bb8-8b65-2665baa7a268" type="video/mp4">
       </video>
     </td>
     <td align="center">
       <video width="200" controls>
-        <source src="assets/baseline_video/0005.mp4" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/123ff3ba-86a2-4083-bea3-c2bb9248e886" type="video/mp4">
       </video>
     </td>
   </tr>
@@ -84,13 +77,6 @@ We compare Agricrafter with 5 baseline methods on realistic crop growth generati
         <source src="assets/demo_video/0005.mp4" type="video/mp4">
       </video>
     </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Ours 1</b></td>
-    <td align="center"><b>Ours 2</b></td>
-    <td align="center"><b>Ours 3</b></td>
-    <td align="center"><b>Ours 4</b></td>
-    <td align="center"><b>Ours 5</b></td>
   </tr>
 </table>
 
