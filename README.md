@@ -2,9 +2,15 @@
 
 🚧 **The project is under code cleanup and organization. Stay tuned!**
 
-**Agricrafter** is a full-growth-cycle crop video generation model. It leverages video diffusion models to realistically simulate crop growth over time.
+**Agricrafter** leverages video diffusion models to realistically simulate crop growth, generating full-growth-cycle videos from a single image.
 
 The repository is currently being prepared for public release. Core components, models, and detailed documentation will be available soon.
+
+## 📌 Project Overview
+- Crop growth Dataset
+- Crop growth video generation from images
+- Support for long-range generation
+- Support for control parameters
 
 ## 🧬 1. Crop Growth Dataset Construction
 
@@ -19,7 +25,7 @@ We build a crop growth video dataset capturing full life cycles.
 
 ## 🆚 2. Comparison with Baseline Methods
 
-We compare Agricrafter with 5 baseline methods on realistic crop growth generation. Each column shows the same input scenario; the first row is the output from baseline methods, and the second row is from our Agricrafter.
+We compare Agricrafter with baseline methods on realistic crop growth generation. The first row is the output from baseline methods, and the second row is from our Agricrafter.
 
 <h4 align="center">🔁 Row 1: Baseline Outputs   |   Row 2: Agricrafter (Ours)</h4>
 
@@ -83,7 +89,7 @@ Agricrafter supports **long-range video synthesis** by interpolating intermediat
   <p><em>Figure: Interpolation-based long video generation.</em></p>
 </div>
 
-### 🎞️ Video Comparison: Short Video vs. Interpolated Long Sequence
+### 🎞️ Video Comparison: Short Video vs. Interpolated Long Video
 
 <table>
   <tr>
@@ -124,12 +130,6 @@ Agricrafter supports **long-range video synthesis** by interpolating intermediat
 
 ---
 
-
-## 📌 Project Overview (Coming Soon)
-- Crop growth Dataset
-- Crop growth simulation from images
-- Support for long-range generation
-- Support for control parameters
 
 ## 📂 Crop Growth Dataset (Coming Soon)
 
