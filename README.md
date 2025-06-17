@@ -4,6 +4,14 @@
 
 **Agricrafter** is a full-growth-cycle crop video generation model. It leverages video diffusion models to realistically simulate crop growth over time.
 
+https://github.com/user-attachments/assets/16920227-bf18-4ce0-8d59-55f0f2dc9c41
+<video src="https://github.com/user-attachments/assets/16920227-bf18-4ce0-8d59-55f0f2dc9c41" controls width="500">
+</video>
+
+<video width="200" controls>
+  <source src="https://github.com/user-attachments/assets/16920227-bf18-4ce0-8d59-55f0f2dc9c41">
+</video>
+
 The repository is currently being prepared for public release. Core components, models, and detailed documentation will be available soon.
 
 ## 🧬 1. Crop Growth Dataset Construction
