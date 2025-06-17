@@ -48,10 +48,6 @@ We compare Agricrafter with 5 baseline methods on realistic crop growth generati
   </tr>
   <tr>
     <td align="center">
-      <video src="https://github.com/user-attachments/assets/7128cad4-a188-4f11-99d7-7df508d75ed2" controls width="80">
-      </video>
-    </td>
-    <td align="center">
       <video src="https://github.com/user-attachments/assets/3763ee06-1332-49b9-bfff-5a8799dfde2c" controls width="80">
       </video>
     </td>
@@ -65,6 +61,10 @@ We compare Agricrafter with 5 baseline methods on realistic crop growth generati
     </td>
     <td align="center">
       <video src="https://github.com/user-attachments/assets/69ed3bb3-ed86-40a4-baea-12d91c509df7" controls width="80">
+      </video>
+    </td>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/7128cad4-a188-4f11-99d7-7df508d75ed2" controls width="80">
       </video>
     </td>
   </tr>
@@ -102,11 +102,11 @@ Agricrafter supports **long-range video synthesis** by interpolating intermediat
   </tr>
   <tr>
     <td align="center">
-      <video src="https://github.com/user-attachments/assets/dd81f91b-88ca-405c-b333-d2e635a28360" controls width="100">
+      <video src="https://github.com/user-attachments/assets/76d4ea3c-d608-44f1-95de-0217c9d6caf5" controls width="100">
       </video>
     </td>
     <td align="center">
-      <video src="https://github.com/user-attachments/assets/76d4ea3c-d608-44f1-95de-0217c9d6caf5" controls width="100">
+      <video src="https://github.com/user-attachments/assets/dd81f91b-88ca-405c-b333-d2e635a28360" controls width="100">
       </video>
     </td>
   </tr>
