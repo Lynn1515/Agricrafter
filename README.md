@@ -27,7 +27,55 @@ We build a crop growth video dataset capturing full life cycles.
 
 We compare Agricrafter with baseline methods on realistic crop growth generation. The first row is the output from baseline methods, and the second row is from our Agricrafter.
 
-<h4 align="center">🔁 Row 1: Baseline Outputs   |   Row 2: Agricrafter (Ours)</h4>
+<h4 align="center">🔁 Column 1: Baseline Outputs   |   Column 2: Agricrafter (Ours)</h4>
+
+<table>
+  <tr>
+    <th style="text-align:center">Baseline</th>
+    <th style="text-align:center">Agricrafter (Ours)</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/c7a32569-e1cc-4727-afc9-0a721f5ee2b8" controls width="100">
+      </video>
+    </td>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/5544987a-f209-42e3-8554-8c46c5063eb2" controls width="100">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/a66cd49b-26e8-4312-9710-2bb438e4336f" controls width="100">
+      </video>
+    </td>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/761ee9f0-39a4-4ddc-b242-1a8a1287fccd" controls width="100">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/9bf91685-a9c3-47f8-8567-e75dfb1ffa23" controls width="100">
+      </video>
+    </td>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/69ed3bb3-ed86-40a4-baea-12d91c509df7" controls width="100">
+      </video>
+    </td>
+  </tr>
+    <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/80c23bed-9f76-406d-bc55-183cdb3460da" controls width="100">
+      </video>
+    </td>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/7128cad4-a188-4f11-99d7-7df508d75ed2" controls width="100">
+      </video>
+    </td>
+  </tr>
+</table>
+
 
 <table>
   <tr>
